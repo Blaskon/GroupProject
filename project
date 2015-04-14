@@ -1,0 +1,78 @@
+<!DOCTYPE html>
+
+<html lang="en">
+
+<head>
+	
+	<meta charset="utf-8">
+	<link rel="icon" href="favicon.jpg" type="image/gif" sizes="16x16">
+	<meta name="viewport"  content="width=device-width, initial-scale=1.0">
+
+<title>project</title>
+ 
+ <link rel="stylesheet" href=""/>
+
+   <link rel="stylesheet" type="text/css" media="only screen and (max-device-width: 450px)" href="mobile.css" />
+  <link rel="stylesheet" type="text/css" media="only screen and (max-width: 450px)" href="mobile.css" />
+
+</head>
+
+
+
+<body class="pro">
+
+
+<header> 
+
+
+</header>
+
+<nav class="navigation">
+
+	<a class="nav1"  href="./assignment1.html"> Home</a> 
+	
+	<a class="nav1"  href="./the%20master.html"> The Masters</a>
+	
+	<a class="nav1"  href="./usopen.html"> US Open</a> 
+
+	<a class="nav1"  href="./british-open.html"> British Open</a> 
+	
+	<a class="nav1"  href="./pga.html"> PGA</a> 
+
+	<a class="nav1"  href="./tips.html"> Tips</a>
+
+	<a class="nav1"  href="./about-me.html"> About Me</a> 
+</nav> 
+	
+
+
+<article class="mdoc">The 2015 PGA championship will be held at Whistling Straits, American on the Straits course. This is the last major of the year and is always an entertaining championship. It’s a par 72 and 7201 yards long. This will be the third time the PGA Championship will be held here. In 2004 Vijay Singh won in a playoff against Chris DiMarco and Justin Leonard and in 2010 Martin Kaymer won. This is an old style links course and is quite similar to a good Irish or English course. Like all links courses it will cause problems with its deep pot bunkers and long grass. There are also the winds that sweep in off lake. This year’s field will be as strong as ever with world number 1 and defending champion Rory Mcilroy at the head of the field. The PGA dates back to 1916 when it was a matchplay championship and it wasn’t till 1958 that it turned to a stroke play event. </article>
+
+
+
+
+
+
+
+<footer>
+	<br>	
+  <a href="./pga.html"  class="foot1">Top of page</a>  
+	<br>
+	<br>
+	<a href="./references.html"
+	class="foot1"> References</a> 
+	<br>
+	<p class="copy">All content copyright Paul O'Sullivan 2015</p>   
+
+
+</footer>
+</body>
+
+
+
+
+
+
+</html>
+
+

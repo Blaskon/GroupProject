@@ -1,0 +1,79 @@
+body.pro
+{ font-family: arial;
+}
+header.hed
+{ 	height: 180px;
+}
+.navigation
+{ 	font-size: 20px;
+	text-decoration: none;
+	text-align: center;
+	padding: 120px 0px 5px 0px;
+}
+.nav 
+{ 	text-decoration: none;
+  	padding: 0px 10px;
+  	font-size: 40px;
+  	color:#0cf727;
+}
+.nav1 
+{ 	text-decoration: none;
+  	padding: 0px 10px;
+  	color:#0cf727;
+}
+a:hover{
+	color: #ff9900;
+}
+select.menu
+{ 	padding-top: 140px;
+	font-size: 30px;
+}
+h1
+{ 	text-align: center;
+	padding-top: 30px;
+	color: red;
+}
+
+div.mdoc
+{ 	margin: 0 auto;
+	background: url("newgrange1.jpg"); 
+  	-webkit-background-size: cover;
+  	-moz-background-size: cover;
+  	-o-background-size: cover;
+  	background-size: cover;
+  	height: 440px;
+}
+div.mdoc1
+{ 	padding: 5px 0px 50px 0px; 
+	background: url("CrokePark1.jpg"); 
+  	-webkit-background-size: cover;
+  	-moz-background-size: cover;
+  	-o-background-size: cover;
+  	background-size: cover;
+  	height: 440px;
+}
+article.text{
+
+
+}
+footer.foot
+{ 	text-align: center;
+	background-color: grey;
+	height: 120px;
+	font-size: 20px;
+}
+.foot1
+{	text-decoration: none;
+	color:#0cf727;;
+}
+.copy
+{ color: #f96407;
+}
+
+
+
+
+
+
+
+
