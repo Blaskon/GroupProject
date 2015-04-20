@@ -1,0 +1,132 @@
+body.pro
+{ 
+  font-family: arial;
+}
+
+header.hed
+{   
+  height: 180px;
+}
+
+.navigation
+{   
+  font-size: 20px;
+  text-decoration: none;
+  text-align: center;
+  padding: 120px 0px 5px 0px;
+}
+
+.nav 
+{   
+  text-decoration: none;
+  padding: 0px 10px;
+  font-size: 40px;
+  color:#0cf727;
+}
+
+.nav1 
+{   
+  text-decoration: none;
+  padding: 0px 10px;
+  color:#0cf727;
+}
+
+a:hover
+{
+  color: #ff9900;
+}
+
+h1
+{   
+  text-align: center;
+  padding-top: 15px;
+  color: red;
+}
+
+div.kil
+{
+  padding: 5px 0px 0px 0px; 
+  background: url("kilmainham.jpg"); 
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+  height: 500px;
+}
+
+p.kilmainham
+{
+  padding-left: 20px;
+  float: left;
+  font-family: arial;
+  font-size: 16px;
+  margin: 0 auto;
+  width: 400px;
+  color: #00ff4c;
+}
+div.blar
+{
+  padding: 5px 0px 0px 0px; 
+  background: url("blarney_stone1.jpg"); 
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+  height: 500px;
+}
+
+p.blarney
+{
+  padding-left: 20px;
+  float: left;
+  font-family: arial;
+  font-size: 16px;
+  margin: 0 auto;
+  width: 300px;
+  color: #00ff4c;
+}
+
+div.new
+{   
+  padding-top: 0px;
+  background: url("newgrange1.jpg"); 
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+  height: 440px;
+}
+
+div.cro
+{   
+  padding top: 0px; 
+  background: url("CrokePark1.jpg"); 
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+  height: 440px;
+}
+
+footer.foot
+{   text-align: center;
+  background-color: ;
+  height: 120px;
+  font-size: 20px;
+}
+
+.foot1
+{ text-decoration: none;
+  color:#0cf727;;
+}
+
+.copy
+{ color: #f96407;
+}
+
+
+
+
+
+
+
