@@ -7,6 +7,18 @@ header.hed
 {   
   height: 180px;
 }
+h2
+{
+  padding-top: 15px;
+}
+
+h1
+{
+  text-align: center;
+  padding-top: 15px;
+  color: red;
+  font-size: 30px;
+}
 
 .navigation
 {   
@@ -36,11 +48,13 @@ a:hover
   color: #ff9900;
 }
 
-h1
+a.he1
 {   
   text-align: center;
   padding-top: 15px;
   color: red;
+  text-decoration: none;
+  font-size: 30px;
 }
 
 div.kil
@@ -66,7 +80,7 @@ p.kilmainham
 }
 div.blar
 {
-  padding: 5px 0px 0px 0px; 
+  padding: 5px; 
   background: url("blarney_stone1.jpg"); 
   -webkit-background-size: cover;
   -moz-background-size: cover;
@@ -86,10 +100,21 @@ p.blarney
   color: #00ff4c;
 }
 
-div.new
+div.blar
 {   
   padding-top: 0px;
-  background: url("newgrange1.jpg"); 
+  background: url("home_blarney1.jpg"); 
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+  height: 440px;
+}
+
+div.gaol
+{   
+  padding top: 0px; 
+  background: url("home_kilmainham.jpg"); 
   -webkit-background-size: cover;
   -moz-background-size: cover;
   -o-background-size: cover;
@@ -100,7 +125,40 @@ div.new
 div.cro
 {   
   padding top: 0px; 
-  background: url("CrokePark1.jpg"); 
+  background: url("home_croke_park.jpg"); 
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+  height: 440px;
+}
+
+div.new
+{   
+  padding top: 0px; 
+  background: url("home_newgrange.jpg"); 
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+  height: 440px;
+}
+
+div.gpo
+{   
+  padding top: 0px; 
+  background: url("home_gpo.jpg"); 
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+  height: 440px;
+}
+
+div.castle
+{   
+  padding top: 0px; 
+  background: url("home_dublin_castle.jpg"); 
   -webkit-background-size: cover;
   -moz-background-size: cover;
   -o-background-size: cover;
@@ -109,21 +167,61 @@ div.cro
 }
 
 footer.foot
-{   text-align: center;
+{   
+  text-align: center;
   background-color: ;
   height: 120px;
   font-size: 20px;
 }
 
 .foot1
-{ text-decoration: none;
-  color:#0cf727;;
+{ 
+  text-decoration: none;
+  color:#0cf727;
 }
 
 .copy
-{ color: #f96407;
+{ 
+  color: #f96407;
 }
 
+h3
+{
+  font-size: 30px;
+  text-align: center;
+}
+p.about
+{
+  text-align: center;
+}
+
+h4
+{
+  font-size: 40px;
+}
+
+div.contactL
+{
+  background-color:;
+  float: left;
+  width: 40%;
+  padding: 0% 5% 0% 5%;
+  clear: ;
+}
+
+div.contactR
+{
+  float: right;
+  width: 40%;
+  padding: 5% 5% 5% 5%;
+  clear:;
+}
+
+p.te
+{
+  font-size: 50px;
+  color:#0026ff;
+}
 
 
 

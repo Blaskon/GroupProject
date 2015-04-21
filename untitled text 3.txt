@@ -1,5 +1,8 @@
+
 References:
 http://en.wikipedia.org/wiki/Kilmainham_Gaol#Former_prisoners
+
+
 
 pictures:
 
@@ -8,3 +11,15 @@ kilmainham gaol: http://2.bp.blogspot.com/-7o2DWqXs58Y/UDp810f8mrI/AAAAAAAAAGg/u
 blarney stone: http://upload.wikimedia.org/wikipedia/commons/d/d5/Kissing_the_Blarney_Stone_1897.jpg
 
 favicon: http://i.infopls.com/images/home/flag1.gif
+
+home : blarney: https://oldphotosofcork.files.wordpress.com/2014/05/10154129_10152641945776729_152166684_n.jpg?w=720&h=422
+
+home: kilmainham : http://www.pigus-skrydis.lt/wp-content/themes/directorypress/thumbs/20090525223605_kilmainham-jail-6096-w.jpg
+
+home: croke parl: http://www.crokepark.ie/getmedia/a16a15d0-f4ae-4e0f-8296-c0b0e552a246/Hurling-final-2013.jpg?width=500&height=230
+
+homw: newgrange : http://www.irelandchauffeurtravel.com/wp-content/uploads/2011/04/Newgrange-From-The-Air.jpg
+
+home: gpo : http://www.anpost.ie/NR/rdonlyres/3B8DF94A-5C73-4239-9829-ACBD88929653/0/AnPostGPOwithbrassfittingsadded.jpg
+
+home: dublin castle : http://www.census.nationalarchives.ie/exhibition/dublin/short_history/B_CastleYard_DublinCastle_eas1703.jpg
