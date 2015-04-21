@@ -1,90 +1,84 @@
 <!DOCTYPE html>
-
 <html lang="en">
+	<head>
+		<meta charset= "UTF-8">
+		<title>
+			Amazing Ireland
+		</title>
+		<link rel="shortcut icon" type="image/x-icon" href="/favicon.ico">
+		<link rel="stylesheet" type="text/css" href="styleSheet1.css" title="default" />
+		<script type="text/javascript">
+			$(document).ready(function() {
+				$('.myMenu > li').bind('mouseover', openSubMenu);
+				$('.myMenu > li').bind('mouseout', closeSubMenu);
+		
+				function openSubMenu() {
+					$(this).find('ul').css('visibility', 'visible');	
+				};
+		
+				function closeSubMenu() {
+					$(this).find('ul').css('visibility', 'hidden');	
+				};
+				   
+			});
+		</script>
+	</head>
+	<body>
+		<header class = "banner">
+		<h2 class="text-site-heading-small headingAlignment">
+					Welcome to
+				</h2>
+				<h1 class="text-site-heading headingAlignment">
+					<br> Amazing Ireland
+				</h1>
+				<div class="center">
 
-<head>
-	
-	<meta charset="utf-8">
-	<link rel="icon" href="favicon.jpg" type="image/gif" sizes="16x16">
-	<meta name="viewport"  content="width=device-width, initial-scale=1.0">
+			<nav class="align">
+			<div id="menu9" style = "width:1024px; height:36px" >
+				<ul class="subMenu">
+					<li><a href="index.html" title="About">Home</a></li>				
+					<li>
+						<a href="home.html" title="Places">Places</a>
+						<ul>
+							<li>
+								<a href="gpo.html" title="GPO">GPO</a>
+							</li>
+						</ul>
+					</li>
+					
+					
+					<li><a href="contact.html" title="Life">Contact</a></li>
+					<li><a href="about.html" title="Work">About</a></li>
+				</ul>
+			</div>
+            </nav>
+			</div>
+		</header>
 
-<title>project</title>
- 
- <link rel="stylesheet" href="project.css"/>
+		<div>
+		
 
-   <link rel="stylesheet" type="text/css" media="only screen and (max-device-width: 450px)" href="mobile.css" />
-  <link rel="stylesheet" type="text/css" media="only screen and (max-width: 450px)" href="mobile.css" />
+                    
+			<div id= "content1" class="center">
+			
+			<article>
+				<h1 style="color: white"> About the web site </h1>
+					<p style="color: white">
+						Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed bibendum sem nec elementum tempus. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vivamus eros purus, pellentesque eget dapibus nec, vulputate mattis lectus. Aliquam erat volutpat. Suspendisse euismod nisl vulputate erat scelerisque sodales. Proin consectetur finibus dignissim. Phasellus fermentum ac nisi ac egestas. Nullam condimentum commodo quam, non fringilla quam sagittis vel. Vestibulum hendrerit, dolor a elementum vehicula, mi nisi facilisis lacus, nec porta quam urna in purus. Mauris consequat maximus ex, nec posuere mi. Praesent non vulputate turpis. Suspendisse rhoncus quis ex ut dignissim.
 
-</head>
+						Donec posuere ante vel purus luctus, ultricies venenatis metus condimentum. Aliquam ut ex suscipit nisi dapibus mattis. Vivamus sed felis tincidunt ex convallis lobortis. Sed laoreet, sem ut blandit dignissim, felis libero rhoncus nulla, vel posuere odio risus et erat. Vivamus nec nunc nec enim gravida maximus. Morbi vel fermentum mi. Aenean rhoncus nunc a libero molestie volutpat. Duis sed commodo neque.
 
+						Duis nec elit orci. Phasellus neque sapien, vestibulum quis massa ut, mattis pretium purus. Integer posuere mi at risus commodo, ut dignissim tortor auctor. Aenean in dui in tellus sodales auctor vitae ut magna. Etiam rhoncus nunc massa, id rhoncus urna interdum ac. Pellentesque vitae nibh pellentesque, pellentesque nunc non, malesuada augue. Praesent posuere consectetur tortor at ultricies. Praesent volutpat neque sapien. Mauris tincidunt eros eu est pellentesque malesuada. Pellentesque interdum, nisl varius hendrerit posuere, urna odio tempor turpis, non volutpat libero turpis consequat justo. Cras iaculis feugiat nisi sed cursus.
+					</p>
+				
+				
+			</article>
+			</div>
+			<footer class ="centerFooter">
 
-
-<body class="pro">
-
-
-<header class="hed"> 
-
-
-	<select class="menu">
-		<option href="./home.html" value="Blarney Stone">Blarney Stone</option>
-		<option value="Kilmainham Gaol">Kilmainham Gaol</option>
-		<option value="Croke Park">Croke Park</option>
-		<option value="Newgrange">Newgrange</option>
-		<option value="GPO">GPO</option>
-		<option value="Dublin Castle">Dublin Castle</option>
-	</select> 
-
-<nav class="navigation">
-
-	<a class="nav1"  href="blarneystone.html">Blarney Stone</a>
-	<a class="nav1"  href="kilmainhamgaol.html">Kilmainham Gaol</a>
-	<a class="nav1"  href="crokepark.html">Croke Park</a>
-	<a class="nav1"  href="newgrange.html">Newgrange</a>
-	<a class="nav1"  href="gpo.html">GPO</a>
-	<a class="nav1"  href="dublincastle.html">Dublin Castle</a>
-	<a class="nav1"  href="index.html"> Home</a> 
-	<a class="nav1"  href="aboutme.html"> About Me</a>
-	<a class="nav1"  href="contact.html">Contact</a>  
-	
-</nav> 
-	
-
-</header>
-
-<div  class="mdoc">
-
-<h1>Newgrange</h1>
-<article class="text">The 2015 PGA championship will be held at Whistling Straits, American on the Straits course. This is the last major of the year and is always an entertaining championship. It’s a par 72 and 7201 yards long. This will be the third time the PGA Championship will be held here. In 2004 Vijay Singh won in a playoff against Chris DiMarco and Justin Leonard and in 2010 Martin Kaymer won. This is an old style links course and is quite similar to a good Irish or English course. Like all links courses it will cause problems with its deep pot bunkers and long grass. There are also the winds that sweep in off lake. This year’s field will be as strong as ever with world number 1 and defending champion Rory Mcilroy at the head of the field. The PGA dates back to 1916 when it was a matchplay championship and it wasn’t till 1958 that it turned to a stroke play event. 
-http://www.yours.ie/travel_culture/newgrange_ireland/newgrange_passage_tomb_rocks.jpg
-</article>
-</div>
-
-<div class="mdoc1">
-
-<h1>Croke Park</h1>
-<article>The 2015 PGA championship will be held at Whistling Straits, American on the Straits course. This is the last major of the year and is always an entertaining championship. It’s a par 72 and 7201 yards long. This will be the third time the PGA Championship will be held here. In 2004 Vijay Singh won in a playoff against Chris DiMarco and Justin Leonard and in 2010 Martin Kaymer won. This is an old style links course and is quite similar to a good Irish or English course. Like all links courses it will cause problems with its deep pot bunkers and long grass. There are also the winds that sweep in off lake. This year’s field will be as strong as ever with world number 1 and defending champion Rory Mcilroy at the head of the field. The PGA dates back to 1916 when it was a matchplay championship and it wasn’t till 1958 that it turned to a stroke play event. 
-http://www.theaa.ie/AA/Location/Dublin/~/media/Images/AA%20Ireland/AA%20Roadwatch/Locations/Croke%20Park%20Medium%20cropped.ashx?w=470&h=196&as=1
-</article>
-</div>
-
-
-
-
-
-
-<footer class="foot">
-	<br>	
-  <a href="./project.html"  class="foot1">Top of page</a>  
-	<p class="copy">All content copyright Paul O'Sullivan, Miguel Rey and Obi 2015</p>   
-
-</footer>
-</body>
-
-
-
-
-
-
+				<a>Created by Miguel Rey</a>
+			</footer>
+			</div>
+			
+	</body>
 </html>
-
-
