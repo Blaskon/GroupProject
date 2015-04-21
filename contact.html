@@ -1,46 +1,72 @@
 <!DOCTYPE html>
-
 <html lang="en">
+	<head>
+		<meta charset= "UTF-8">
+		<title>
+			Amazing Ireland
+		</title>
+		<link rel="shortcut icon" type="image/x-icon" href="/favicon.ico">
+		<link rel="stylesheet" type="text/css" href="index.css" title="default" />
+		<script src="http://ajax.googleapis.com/ajax/libs/jquery/1.11.2/jquery.min.js"></script>
+		<script type="text/javascript">
+			$(document).ready(function() {
+			debugger;
+				//$('#hlPlaces').bind('mouseover', openSubMenu);
+				$('.subMenu > li').bind('mouseover', openSubMenu);
+				$('.subMenu > li').bind('mouseout', closeSubMenu);
+		
+				function openSubMenu() 
+				{
+					//alert("Open");
+					$(this).find('ul').css('visibility', 'visible');	
+				};
+		
+				function closeSubMenu() 
+				{
+					//alert("Close");
+					$(this).find('ul').css('visibility', 'hidden');	
+				};
+				   
+			});
+		</script>
+	</head>
+	<body>
+		<header class = "banner">
+		<h2 class="text-site-heading-small headingAlignment">
+					Welcome to
+				</h2>
+				<h1 class="text-site-heading headingAlignment">
+					<br> Amazing Ireland
+				</h1>
+				<div class="center">
 
-<head>
-	
-	<meta charset="utf-8">
-	<link rel="icon" href="irish-flag.jpg" type="image/gif" sizes="16x16">
-	<meta name="viewport"  content="width=device-width, initial-scale=1.0">
-
-<title>Contact</title>
- 
- <link rel="stylesheet" href="index.css"/>
-
-   <link rel="stylesheet" type="text/css" media="only screen and (max-device-width: 450px)" href="mobile.css" />
-  <link rel="stylesheet" type="text/css" media="only screen and (max-width: 450px)" href="mobile.css" />
-
-</head>
-
-
-
-<body class="pro">
-
-
-<header class="hed"> 
-
-
-<nav class="navigation">
-
-	<a class="nav1"  href="blarneystone.html">Blarney Stone</a>
-	<a class="nav1"  href="kilmainhamgaol.html">Kilmainham Gaol</a>
-	<a class="nav1"  href="crokepark.html">Croke Park</a>
-	<a class="nav1"  href="newgrange.html">Newgrange</a>
-	<a class="nav1"  href="gpo.html">GPO</a>
-	<a class="nav1"  href="dublincastle.html">Dublin Castle</a>
-	<a class="nav1"  href="index.html"> Home</a> 
-	<a class="nav1"  href="aboutme.html"> About Me</a>
-	<a class="nav1"  href="contact.html">Contact Us</a> 
-	
-</nav> 
-	
-
-</header>
+			<nav class="align">
+			<div id="menu9" style = "width:1024px; height:36px" >
+				<ul class="subMenu">
+					<li><a href="index.html" title="About">Home</a></li>				
+					<li>
+						<a href="home.html" title="Places" id="hlPlaces">Places</a>
+						<ul style="margin-left:36%; border:1px solid black">
+							<li>
+								<a href="gpo.html" title="GPO" style="display:block">GPO</a>
+							</li>
+							<li>
+								<a href="gpo.html" title="Miguelito2" style="display:block">Miguelito2</a>
+							</li>
+							<li>
+								<a href="gpo.html" title="Miguelito3" style="display:block">Miguelito3</a>
+							</li>
+						</ul>
+					</li>
+					
+					
+					<li><a href="contact.html" title="Life">Contact</a></li>
+					<li><a href="about.html" title="Work">About</a></li>
+				</ul>
+			</div>
+            </nav>
+			</div>
+		</header>
 
 <div class="contactL">
 <h4>Contact Information</h4>
