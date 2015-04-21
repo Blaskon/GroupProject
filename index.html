@@ -1,6 +1,5 @@
 <!DOCTYPE html>
-<html lang="en">
-<<<<<<< Updated upstream
+<html lang="en" class="pageBackground">
 	<head>
 		<meta charset= "UTF-8">
 		<title>
@@ -8,16 +7,23 @@
 		</title>
 		<link rel="shortcut icon" type="image/x-icon" href="/favicon.ico">
 		<link rel="stylesheet" type="text/css" href="index.css" title="default" />
+		<script src="http://ajax.googleapis.com/ajax/libs/jquery/1.11.2/jquery.min.js"></script>
 		<script type="text/javascript">
 			$(document).ready(function() {
-				$('.myMenu > li').bind('mouseover', openSubMenu);
-				$('.myMenu > li').bind('mouseout', closeSubMenu);
+			debugger;
+				//$('#hlPlaces').bind('mouseover', openSubMenu);
+				$('.subMenu > li').bind('mouseover', openSubMenu);
+				$('.subMenu > li').bind('mouseout', closeSubMenu);
 		
-				function openSubMenu() {
+				function openSubMenu() 
+				{
+					//alert("Open");
 					$(this).find('ul').css('visibility', 'visible');	
 				};
 		
-				function closeSubMenu() {
+				function closeSubMenu() 
+				{
+					//alert("Close");
 					$(this).find('ul').css('visibility', 'hidden');	
 				};
 				   
@@ -39,10 +45,16 @@
 				<ul class="subMenu">
 					<li><a href="index.html" title="About">Home</a></li>				
 					<li>
-						<a href="home.html" title="Places">Places</a>
-						<ul>
+						<a href="home.html" title="Places" id="hlPlaces">Places</a>
+						<ul style="margin-left:36%; border:1px solid black">
 							<li>
-								<a href="gpo.html" title="GPO">GPO</a>
+								<a href="gpo.html" title="GPO" style="display:block">GPO</a>
+							</li>
+							<li>
+								<a href="gpo.html" title="Miguelito2" style="display:block">Miguelito2</a>
+							</li>
+							<li>
+								<a href="gpo.html" title="Miguelito3" style="display:block">Miguelito3</a>
 							</li>
 						</ul>
 					</li>
@@ -70,6 +82,36 @@
 						Donec posuere ante vel purus luctus, ultricies venenatis metus condimentum. Aliquam ut ex suscipit nisi dapibus mattis. Vivamus sed felis tincidunt ex convallis lobortis. Sed laoreet, sem ut blandit dignissim, felis libero rhoncus nulla, vel posuere odio risus et erat. Vivamus nec nunc nec enim gravida maximus. Morbi vel fermentum mi. Aenean rhoncus nunc a libero molestie volutpat. Duis sed commodo neque.
 
 						Duis nec elit orci. Phasellus neque sapien, vestibulum quis massa ut, mattis pretium purus. Integer posuere mi at risus commodo, ut dignissim tortor auctor. Aenean in dui in tellus sodales auctor vitae ut magna. Etiam rhoncus nunc massa, id rhoncus urna interdum ac. Pellentesque vitae nibh pellentesque, pellentesque nunc non, malesuada augue. Praesent posuere consectetur tortor at ultricies. Praesent volutpat neque sapien. Mauris tincidunt eros eu est pellentesque malesuada. Pellentesque interdum, nisl varius hendrerit posuere, urna odio tempor turpis, non volutpat libero turpis consequat justo. Cras iaculis feugiat nisi sed cursus.
+						
+						Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed bibendum sem nec elementum tempus. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vivamus eros purus, pellentesque eget dapibus nec, vulputate mattis lectus. Aliquam erat volutpat. Suspendisse euismod nisl vulputate erat scelerisque sodales. Proin consectetur finibus dignissim. Phasellus fermentum ac nisi ac egestas. Nullam condimentum commodo quam, non fringilla quam sagittis vel. Vestibulum hendrerit, dolor a elementum vehicula, mi nisi facilisis lacus, nec porta quam urna in purus. Mauris consequat maximus ex, nec posuere mi. Praesent non vulputate turpis. Suspendisse rhoncus quis ex ut dignissim.
+
+						Donec posuere ante vel purus luctus, ultricies venenatis metus condimentum. Aliquam ut ex suscipit nisi dapibus mattis. Vivamus sed felis tincidunt ex convallis lobortis. Sed laoreet, sem ut blandit dignissim, felis libero rhoncus nulla, vel posuere odio risus et erat. Vivamus nec nunc nec enim gravida maximus. Morbi vel fermentum mi. Aenean rhoncus nunc a libero molestie volutpat. Duis sed commodo neque.
+
+						Duis nec elit orci. Phasellus neque sapien, vestibulum quis massa ut, mattis pretium purus. Integer posuere mi at risus commodo, ut dignissim tortor auctor. Aenean in dui in tellus sodales auctor vitae ut magna. Etiam rhoncus nunc massa, id rhoncus urna interdum ac. Pellentesque vitae nibh pellentesque, pellentesque nunc non, malesuada augue. Praesent posuere consectetur tortor at ultricies. Praesent volutpat neque sapien. Mauris tincidunt eros eu est pellentesque malesuada. Pellentesque interdum, nisl varius hendrerit posuere, urna odio tempor turpis, non volutpat libero turpis consequat justo. Cras iaculis feugiat nisi sed cursus.
+						
+						Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed bibendum sem nec elementum tempus. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vivamus eros purus, pellentesque eget dapibus nec, vulputate mattis lectus. Aliquam erat volutpat. Suspendisse euismod nisl vulputate erat scelerisque sodales. Proin consectetur finibus dignissim. Phasellus fermentum ac nisi ac egestas. Nullam condimentum commodo quam, non fringilla quam sagittis vel. Vestibulum hendrerit, dolor a elementum vehicula, mi nisi facilisis lacus, nec porta quam urna in purus. Mauris consequat maximus ex, nec posuere mi. Praesent non vulputate turpis. Suspendisse rhoncus quis ex ut dignissim.
+
+						Donec posuere ante vel purus luctus, ultricies venenatis metus condimentum. Aliquam ut ex suscipit nisi dapibus mattis. Vivamus sed felis tincidunt ex convallis lobortis. Sed laoreet, sem ut blandit dignissim, felis libero rhoncus nulla, vel posuere odio risus et erat. Vivamus nec nunc nec enim gravida maximus. Morbi vel fermentum mi. Aenean rhoncus nunc a libero molestie volutpat. Duis sed commodo neque.
+
+						Duis nec elit orci. Phasellus neque sapien, vestibulum quis massa ut, mattis pretium purus. Integer posuere mi at risus commodo, ut dignissim tortor auctor. Aenean in dui in tellus sodales auctor vitae ut magna. Etiam rhoncus nunc massa, id rhoncus urna interdum ac. Pellentesque vitae nibh pellentesque, pellentesque nunc non, malesuada augue. Praesent posuere consectetur tortor at ultricies. Praesent volutpat neque sapien. Mauris tincidunt eros eu est pellentesque malesuada. Pellentesque interdum, nisl varius hendrerit posuere, urna odio tempor turpis, non volutpat libero turpis consequat justo. Cras iaculis feugiat nisi sed cursus.
+						
+						Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed bibendum sem nec elementum tempus. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vivamus eros purus, pellentesque eget dapibus nec, vulputate mattis lectus. Aliquam erat volutpat. Suspendisse euismod nisl vulputate erat scelerisque sodales. Proin consectetur finibus dignissim. Phasellus fermentum ac nisi ac egestas. Nullam condimentum commodo quam, non fringilla quam sagittis vel. Vestibulum hendrerit, dolor a elementum vehicula, mi nisi facilisis lacus, nec porta quam urna in purus. Mauris consequat maximus ex, nec posuere mi. Praesent non vulputate turpis. Suspendisse rhoncus quis ex ut dignissim.
+
+						Donec posuere ante vel purus luctus, ultricies venenatis metus condimentum. Aliquam ut ex suscipit nisi dapibus mattis. Vivamus sed felis tincidunt ex convallis lobortis. Sed laoreet, sem ut blandit dignissim, felis libero rhoncus nulla, vel posuere odio risus et erat. Vivamus nec nunc nec enim gravida maximus. Morbi vel fermentum mi. Aenean rhoncus nunc a libero molestie volutpat. Duis sed commodo neque.
+
+						Duis nec elit orci. Phasellus neque sapien, vestibulum quis massa ut, mattis pretium purus. Integer posuere mi at risus commodo, ut dignissim tortor auctor. Aenean in dui in tellus sodales auctor vitae ut magna. Etiam rhoncus nunc massa, id rhoncus urna interdum ac. Pellentesque vitae nibh pellentesque, pellentesque nunc non, malesuada augue. Praesent posuere consectetur tortor at ultricies. Praesent volutpat neque sapien. Mauris tincidunt eros eu est pellentesque malesuada. Pellentesque interdum, nisl varius hendrerit posuere, urna odio tempor turpis, non volutpat libero turpis consequat justo. Cras iaculis feugiat nisi sed cursus.
+						
+						Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed bibendum sem nec elementum tempus. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vivamus eros purus, pellentesque eget dapibus nec, vulputate mattis lectus. Aliquam erat volutpat. Suspendisse euismod nisl vulputate erat scelerisque sodales. Proin consectetur finibus dignissim. Phasellus fermentum ac nisi ac egestas. Nullam condimentum commodo quam, non fringilla quam sagittis vel. Vestibulum hendrerit, dolor a elementum vehicula, mi nisi facilisis lacus, nec porta quam urna in purus. Mauris consequat maximus ex, nec posuere mi. Praesent non vulputate turpis. Suspendisse rhoncus quis ex ut dignissim.
+
+						Donec posuere ante vel purus luctus, ultricies venenatis metus condimentum. Aliquam ut ex suscipit nisi dapibus mattis. Vivamus sed felis tincidunt ex convallis lobortis. Sed laoreet, sem ut blandit dignissim, felis libero rhoncus nulla, vel posuere odio risus et erat. Vivamus nec nunc nec enim gravida maximus. Morbi vel fermentum mi. Aenean rhoncus nunc a libero molestie volutpat. Duis sed commodo neque.
+
+						Duis nec elit orci. Phasellus neque sapien, vestibulum quis massa ut, mattis pretium purus. Integer posuere mi at risus commodo, ut dignissim tortor auctor. Aenean in dui in tellus sodales auctor vitae ut magna. Etiam rhoncus nunc massa, id rhoncus urna interdum ac. Pellentesque vitae nibh pellentesque, pellentesque nunc non, malesuada augue. Praesent posuere consectetur tortor at ultricies. Praesent volutpat neque sapien. Mauris tincidunt eros eu est pellentesque malesuada. Pellentesque interdum, nisl varius hendrerit posuere, urna odio tempor turpis, non volutpat libero turpis consequat justo. Cras iaculis feugiat nisi sed cursus.
+						
+						Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed bibendum sem nec elementum tempus. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vivamus eros purus, pellentesque eget dapibus nec, vulputate mattis lectus. Aliquam erat volutpat. Suspendisse euismod nisl vulputate erat scelerisque sodales. Proin consectetur finibus dignissim. Phasellus fermentum ac nisi ac egestas. Nullam condimentum commodo quam, non fringilla quam sagittis vel. Vestibulum hendrerit, dolor a elementum vehicula, mi nisi facilisis lacus, nec porta quam urna in purus. Mauris consequat maximus ex, nec posuere mi. Praesent non vulputate turpis. Suspendisse rhoncus quis ex ut dignissim.
+
+						Donec posuere ante vel purus luctus, ultricies venenatis metus condimentum. Aliquam ut ex suscipit nisi dapibus mattis. Vivamus sed felis tincidunt ex convallis lobortis. Sed laoreet, sem ut blandit dignissim, felis libero rhoncus nulla, vel posuere odio risus et erat. Vivamus nec nunc nec enim gravida maximus. Morbi vel fermentum mi. Aenean rhoncus nunc a libero molestie volutpat. Duis sed commodo neque.
+
+						Duis nec elit orci. Phasellus neque sapien, vestibulum quis massa ut, mattis pretium purus. Integer posuere mi at risus commodo, ut dignissim tortor auctor. Aenean in dui in tellus sodales auctor vitae ut magna. Etiam rhoncus nunc massa, id rhoncus urna interdum ac. Pellentesque vitae nibh pellentesque, pellentesque nunc non, malesuada augue. Praesent posuere consectetur tortor at ultricies. Praesent volutpat neque sapien. Mauris tincidunt eros eu est pellentesque malesuada. Pellentesque interdum, nisl varius hendrerit posuere, urna odio tempor turpis, non volutpat libero turpis consequat justo. Cras iaculis feugiat nisi sed cursus.
 					</p>
 				
 				
@@ -77,115 +119,9 @@
 			</div>
 			<footer class ="centerFooter">
 
-				<a>Created by Miguel Rey</a>
+				<a>Blah blah</a>
 			</footer>
 			</div>
 			
 	</body>
 </html>
-=======
-
-<head>
-	
-	<meta charset="utf-8">
-	<link rel="icon" href="irish-flag.jpg" type="image/gif" sizes="16x16">
-	<meta name="viewport"  content="width=device-width, initial-scale=1.0">
-
-<title>project</title>
- 
-<link rel="stylesheet" href="index.css"/>
-
-<link rel="stylesheet" type="text/css" media="only screen and (max-device-width: 450px)" href="mobile.css" />
-<link rel="stylesheet" type="text/css" media="only screen and (max-width: 450px)" href="mobile.css" />
-
-</head>
-
-
-
-<body class="pro">
-
-
-<header class="hed"> 
-
-
-
-<nav class="navigation">
-
-	<a class="nav1"  href="blarneystone.html">Blarney Stone</a>
-	<a class="nav1"  href="kilmainhamgaol.html">Kilmainham Gaol</a>
-	<a class="nav1"  href="crokepark.html">Croke Park</a>
-	<a class="nav1"  href="newgrange.html">Newgrange</a>
-	<a class="nav1"  href="gpo.html">GPO</a>
-	<a class="nav1"  href="dublincastle.html">Dublin Castle</a>
-	<a class="nav1"  href="index.html"> Home</a> 
-	<a class="nav1"  href="aboutme.html"> About Me</a>
-	<a class="nav1"  href="contact.html">Contact Us</a>  
-	
-</nav> 
-	
-
-</header>
-
-<div  class="blar">
-
-<h2></h2><a href="blarneystone.html" class="he1">Blarney Stone</a>
-<article class="text">
-</article>
-</div>
-
-<div class="gaol">
-
-<h2></h2><a href="kilmainhamgaol.html" class="he1">Kilmainham Gaol</a>
-<article>
-</article>
-</div>
-
-<div class="cro">
-
-<h2></h2><a href="crokepark.html" class="he1">Croke Park</a>
-<article>
-</article>
-</div>
-
-<div class="new">
-
-<h2></h2><a href="newgrange.html" class="he1">Newgrange</a>
-<article>
-</article>
-</div>
-
-<div class="gpo">
-
-<h2></h2><a href="gpo.html" class="he1">GPO</a>
-<article>
-</article>
-</div>
-
-<div class="castle">
-
-<h2></h2><a href="dublincastle.html" class="he1">Dublin Castle</a>
-<article>
-</article>
-</div>
-
-
-
-
-
-<footer class="foot">
-	<br>	
-  <a href="./index.html"  class="foot1">Top of page</a>  
-	<p class="copy">All content copyright Paul O'Sullivan, Miguel Rey and Obi Uzoma 2015</p>   
-
-</footer>
-</body>
-
-
-
-
-
-
-</html>
-
-
->>>>>>> Stashed changes
