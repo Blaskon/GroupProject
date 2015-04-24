@@ -56,6 +56,25 @@ p.kilmainham
   width: 400px;
   color: #00ff4c;
 }
+div.croke
+{
+  padding: 5px 0px 0px 0px; 
+  background: url("oldcroke.jpg"); 
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+  height: 500px;
+}
+p.crokep
+{
+  padding-left: 20px;
+  float: left;
+  font-family: arial;
+  font-size: 16px;
+  margin: 0 auto;
+  width: 400px;
+  color: #00ff4c;
 div.blar
 {
   padding: 5px 0px 0px 0px; 
