@@ -2,11 +2,19 @@
 <html lang="en">
 	<head>
 		<meta charset= "UTF-8">
+		<link rel="icon" href="irish_flag.png" type="image/gif" sizes="16x16">
+		<meta name="viewport"  content="width=device-width, initial-scale=1.0">
+		
 		<title>
 			Amazing Ireland
 		</title>
+
 		<link rel="shortcut icon" type="image/x-icon" href="/favicon.ico">
 		<link rel="stylesheet" type="text/css" href="index.css" title="default" />
+		<link rel="stylesheet" type="text/css" media="only screen and (max-device-width: 450px)" href="mobile.css" />
+  		<link rel="stylesheet" type="text/css" media="only screen and (max-width: 450px)" href="mobile.css" />
+
+  		<script src="javascript1.js"></script>
 		<script src="http://ajax.googleapis.com/ajax/libs/jquery/1.11.2/jquery.min.js"></script>
 		<script type="text/javascript">
 			$(document).ready(function() {
@@ -90,9 +98,9 @@
 	</aside>
 
 	<aside class="contactR">
-		<form  method="post" onsubmit="return contact(this);">
+		<form  class="one" action="" method="GET" onsubmit="return contact()">
 	
-			<select class="tex" name="Enquiry">
+			<select class="tex" id="mainEnquiry" name="mainEnquiry">
 				<option value="general">General Enquiry</option>
 				<option value="booking">Group Booking</option>
 				<option value="booking">Buy Tickets</option>
@@ -100,16 +108,16 @@
 			<br><br><br>
 
 
-			Name <br><input type="text" name="name" size="80" />
+			Name <br><input id="Name" type="text" name="Name" size="80" />
 			<br><br>
 
-			Telephone <br><input type="text" name="telephone" size="80" />
+			Telephone <br><input type="text" id="Telephone" name="Telephone" size="80" />
 			<br><br>
 
-			Email <br><input type="text" name="email" size="80" />
+			Email <br><input type="text" id="Email" name="Email" size="80" />
 			<br><br>
 
-			Enquiry<textarea type="text" name="enquiry" cols="80" rows="10" tabindex="70" data-min-length=""></textarea>
+			Enquiry<textarea type="text" id="enquiry" name="enquiry" cols="80" rows="10" tabindex="70" data-min-length=""></textarea>
 			<input type="submit" value="submit" name="Button1" size="85"><br/>
 		</form>
 	</aside>
