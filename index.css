@@ -333,3 +333,10 @@ article > p{
   text-align: left;
 padding-top: 30px;
 }
+.tex{
+  width: 500px;
+  font-size: 30px;
+  
+}
+
+      /*Enquiry <br><input class="tex" type="text" name="name" size="80"/>

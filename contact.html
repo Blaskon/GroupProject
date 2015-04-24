@@ -92,7 +92,7 @@
 	<aside class="contactR">
 		<form  method="post" onsubmit="return contact(this);">
 	
-			<select name="Enquiry">
+			<select class="tex" name="Enquiry">
 				<option value="general">General Enquiry</option>
 				<option value="booking">Group Booking</option>
 				<option value="booking">Buy Tickets</option>
@@ -103,14 +103,13 @@
 			Name <br><input type="text" name="name" size="80" />
 			<br><br>
 
-			Telephone <br><input type="text" name="name" size="80" />
+			Telephone <br><input type="text" name="telephone" size="80" />
 			<br><br>
 
-			Email <br><input type="text" name="name" size="80" />
+			Email <br><input type="text" name="email" size="80" />
 			<br><br>
 
-			Enquiry <br><input type="text" name="name" size="80" />
-
+			Enquiry<textarea type="text" name="enquiry" cols="80" rows="10" tabindex="70" data-min-length=""></textarea>
 			<input type="submit" value="submit" name="Button1" size="85"><br/>
 		</form>
 	</aside>
