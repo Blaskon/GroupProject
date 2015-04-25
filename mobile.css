@@ -1,48 +1,41 @@
-body.pro
-{ 
-  font-family: arial;
-}
-
-header.hed
-{   
-  height: 180px;
-}
-
-.navigation
-{   
-  font-size: 20px;
-  text-decoration: none;
-  text-align: center;
-  padding: 120px 0px 5px 0px;
-}
-
-.nav 
-{   
-  text-decoration: none;
-  padding: 0px 10px;
-  font-size: 40px;
-  color:#0cf727;
-}
-
-.nav1 
-{   
-  text-decoration: none;
-  padding: 0px 10px;
-  color:#0cf727;
-}
-
-a:hover
-{
-  color: #ff9900;
-}
-
 h1
 {   
   text-align: center;
-  padding-top: 30px;
+  padding-top: 15px;
   color: red;
 }
-
+h2
+{
+  text-align: center;
+  color: red;
+}
+div.fon
+{
+  text-align: center;
+  font-size: 22px;
+}
+aside.contactL
+{
+  float: left;
+  width: 500px;
+  height: 400px;
+}
+aside.contactR
+{
+  float: right;
+  width: 500px;
+  height: 400px;
+}
+p.te
+{
+  font-size: 28px;
+  color: black;
+ 
+}
+p.con
+{
+  color: black;
+}
 div.kil
 {
   padding: 5px 0px 0px 0px; 
@@ -53,7 +46,6 @@ div.kil
   background-size: cover;
   height: 500px;
 }
-
 p.kilmainham
 {
   padding-left: 20px;
@@ -74,7 +66,6 @@ div.blar
   background-size: cover;
   height: 500px;
 }
-
 p.blarney
 {
   padding-left: 20px;
@@ -85,41 +76,29 @@ p.blarney
   width: 300px;
   color: #00ff4c;
 }
-
-div.mdoc
-{   
-  margin: 0 auto;
-  background: url("newgrange1.jpg"); 
-  -webkit-background-size: cover;
-  -moz-background-size: cover;
-  -o-background-size: cover;
-  background-size: cover;
-  height: 440px;
+.gpoo
+{  
+  padding: 20px 20px 20px 20px;  
+  height: 300px;
+  width: 300px;
 }
-
-div.mdoc1
-{   
-  padding: 5px 0px 50px 0px; 
-  background: url("CrokePark1.jpg"); 
-  -webkit-background-size: cover;
-  -moz-background-size: cover;
-  -o-background-size: cover;
-  background-size: cover;
-  height: 440px;
-}
-
 footer.foot
-{   text-align: center;
+{   
+  text-align: center;
   background-color: ;
   height: 120px;
   font-size: 20px;
 }
-
 .foot1
-{ text-decoration: none;
-  color:#0cf727;;
+{ 
+  text-decoration: none;
+  color: #020202;
 }
-
+.foot1:hover
+{
+  color: #3bff00;
+  text-decoration: none;
+}
 .copy
 { color: #f96407;
 }
@@ -128,5 +107,236 @@ footer.foot
 
 
 
+#menu9 > ul{
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  outline: none;
+  text-align: right
+}
+
+body {
+  min-height: 100%;
+  margin: 0;
+}
+
+/*.pageBackground { 
+  height: 100%;
+  background: url(ireland-4.jpg) no-repeat center center fixed; 
+  /*-webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+  
+  background-size: 100% 100%;
+}*/
 
 
+
+div {
+   display: block;
+  } 
+
+.center{
+  width: 1024px;
+  margin: auto; 
+}
+.center2{
+  padding-top: 20px;
+  padding-bottom: 20px;
+  width: 1024px;
+  margin: auto;  
+}
+p{
+  font-size: 20px;
+  color: white;
+}
+
+a:link {
+    text-decoration:none;
+}
+
+a:hover {
+    color:#ff0000;
+    background-color:transparent;
+    text-decoration:underline;
+}
+
+aside.floatRight{
+  float: right;
+}
+
+blockquote {
+  background: #f9f9f9;
+  border-left: 10px solid  #333;
+  margin: 1.5em 10px;
+  padding: 0.5em 10px;
+  quotes: "\201C""\201D""\2018""\2019";
+}
+blockquote:before {
+  color: #333;
+  content: open-quote;
+  font-size: 12em;
+  line-height: 0.1em;
+  margin-right: 0.25em;
+  vertical-align: -0.4em;
+}
+
+blockquote:after {
+  color: #333;
+  content: close-quote;
+  font-size: 12em;
+  line-height: 0.1em;
+  margin-right: 0.30em;
+  vertical-align: -0.75em;
+}
+blockquote p {
+  display: inline;
+  font-size: 15px;
+  font-style: oblique;
+}
+
+nav.align{
+  display: block;
+  width: 1024px;
+  margin-left: 0;
+  margin-right: right;
+}
+
+footer.centerFooter{
+  margin-left: auto;
+  margin-right: auto;
+  width:250px;
+  margin-top: 0px;  
+}
+
+#menu9  > ul > li{
+  display: inline;
+}
+
+aside.floatRight{
+  float: right;
+}
+
+article > p{
+
+}
+
+/*div.backgroundSection{
+  background: url(ireland-4.jpg) no-repeat;
+  background-position: 0% 0%;
+  background-size: 100% 100%;
+    height: 100%;
+    margin: 0;
+
+  
+}*/
+
+#menu9 {
+
+  margin: 1px;
+  display: inline;
+  width: 200px;
+  float: left;
+  }
+
+
+#content1 {
+    margin-top: 40px;
+    /*border: 2px solid #a1a1a1;*/
+    padding: 10px 15px; 
+    /*background: url(ireland-4.jpg);*/
+    /*border-radius: 25px;*/
+  display: block;
+}
+
+#menu9 > ul>li> a {
+  height: 32px;
+    height: 24px;
+  display: inline;
+  text-decoration: none;
+  } 
+  
+  #menu9 li a:link, #menu9 li a:visited {
+  color: #5C5C5C;
+  display: inline-block;
+  /*background:  url(menu9.gif);*/
+  padding: 8px 35px 0 35px;
+  
+  }
+  
+#menu9 ul>li> a:hover {
+  /*color: #FFF;*/
+  /*background:  url(menu9.gif) 0 -32px;*/
+  background:  url(menu9.gif);
+  padding: 8px 35px 0 35px;
+}
+
+.banner{
+
+  background: url(irelandlogo.png) no-repeat;
+   background-position: 20% 50%;
+    background-color: #FFFFFF;
+ 
+  background-size: 10% 75%;
+  height: 170px;
+  width: 100%;
+}
+
+.headingAlignment{
+  margin-left: 28%;
+}
+
+
+.subMenu li ul {
+  position:absolute;
+  visibility:hidden;
+  border-top:1px solid #fff;
+  margin:0;
+  padding:0;
+}
+
+.subMenu li ul li {
+  display:inline;
+  float:none;
+}
+
+.subMenu li ul li a:link, .subMenu li ul li a:visited {
+  background-color:#09F;
+  width:auto;
+}
+
+.subMenu li ul li a:hover {
+  background-color:#0CF;  
+}
+
+.text-site-heading-small {
+  margin-top: 0;
+  margin-bottom: 0;
+  font-family: Georgia,"Times New Roman",Times,serif;
+  font-style: oblique;
+  font-size: 1.1em;
+  color: #999;
+  float: left;
+  margin-top: 50px;
+}
+
+.text-site-heading {
+  margin-top: 0;
+  margin-bottom: 0;
+  font-family: avenirblack,"Helvetica Neue",Helvetica,Arial,sans-serif;
+  text-transform: none;
+  font-size: 2.2em;
+  font-weight: 400;
+  color: #666;
+  letter-spacing: -.01em;
+  text-align: left;
+padding-top: 30px;
+}
+.tex{
+  width: 500px;
+  font-size: 30px;
+  
+}
+
+      /*Enquiry <br><input class="tex" type="text" name="name" size="80"/>
