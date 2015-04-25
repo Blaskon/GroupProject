@@ -96,10 +96,10 @@ p.dublincastle
   width: 400px;
   color: #00ff4c;
 }
-div.crokepk
+div.croke
 {
   padding: 5px 0px 0px 0px; 
-  background: url("openfield.jpg"); 
+  background: url("outside.jpg"); 
   -webkit-background-size: cover;
   -moz-background-size: cover;
   -o-background-size: cover;
@@ -109,12 +109,12 @@ div.crokepk
 p.crokep
 {
   padding-left: 20px;
-  float: centre;
+  float: left;
   font-family: arial;
   font-size: 16px;
   margin: 0 auto;
-  width: 400px;
-  color: #CC9900;
+  width: 700px;
+  color: #003300;
 }
 div.blar
 {
