@@ -69,12 +69,13 @@ div.croke
 p.crokep
 {
   padding-left: 20px;
-  float: left;
+  float: centre;
   font-family: arial;
   font-size: 16px;
   margin: 0 auto;
   width: 400px;
-  color: #00ff4c;
+  color: #CC9900;
+}
 div.blar
 {
   padding: 5px 0px 0px 0px; 
