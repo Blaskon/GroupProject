@@ -56,25 +56,6 @@ p.kilmainham
   width: 400px;
   color: #00ff4c;
 }
-div.croke
-{
-  padding: 5px 0px 0px 0px; 
-  background: url("oldcroke.jpg"); 
-  -webkit-background-size: cover;
-  -moz-background-size: cover;
-  -o-background-size: cover;
-  background-size: cover;
-  height: 500px;
-}
-p.crokep
-{
-  padding-left: 20px;
-  float: left;
-  font-family: arial;
-  font-size: 16px;
-  margin: 0 auto;
-  width: 400px;
-  color: #00ff4c;
 div.blar
 {
   padding: 5px 0px 0px 0px; 
@@ -122,18 +103,6 @@ footer.foot
 { color: #f96407;
 }
 
-
-
-
-
-#menu9 > ul{
-	list-style-type: none;
-	margin: 0;
-	padding: 0;
-	outline: none;
-	text-align: right
-}
-
 body {
   min-height: 100%;
   margin: 0;
@@ -149,6 +118,9 @@ body {
   
   background-size: 100% 100%;
 }
+
+
+
 div {
 	 display: block;
 	}	
@@ -175,7 +147,7 @@ a:link {
 a:hover {
     color:#ff0000;
     background-color:transparent;
-    text-decoration:underline;
+    text-decoration:none;
 }
 
 aside.floatRight{
@@ -226,10 +198,6 @@ footer.centerFooter{
 	margin-top: 0px;	
 }
 
-#menu9  > ul > li{
-	display: inline;
-}
-
 aside.floatRight{
 	float: right;
 }
@@ -248,15 +216,6 @@ article > p{
 	
 }*/
 
-#menu9 {
-
-	margin: 1px;
-	display: inline;
-	width: 200px;
-	float: left;
-	}
-
-
 #content1 {
     margin-top: 40px;
     /*border: 2px solid #a1a1a1;*/
@@ -266,26 +225,64 @@ article > p{
 	display: block;
 }
 
-#menu9 > ul>li> a {
-	height: 32px;
-   	height: 24px;
-	display: inline;
-	text-decoration: none;
-	}	
-	
-	#menu9 li a:link, #menu9 li a:visited {
-	color: #5C5C5C;
-	display: inline-block;
-	/*background:  url(menu9.gif);*/
-	padding: 8px 35px 0 35px;
-	
+#menu9 {
+display: inline-block;
+	margin: 0;
+	padding: 0;
+	position: absolute;
+	width: 100%;
+
 	}
 	
-#menu9 ul>li> a:hover {
+#menu9  ul{
+	height: 156px;
+
+	list-style-type: none;
+	margin: 0;
+	padding: 0;
+	outline: none;
+	float:right;
+	margin-right: 15%;
+	position: relative;
+}
+
+#menu9  ul  li{
+	display: inline-block;
+}
+	
+#menu9 li a:link, #menu9 li a:visited {
+	color: #5C5C5C;
+
+	padding: 8px 35px 0 35px;
+	
+}
+
+#menu9 ul li a,visited{
+	/*background:  url(menu9.gif);
+	padding: 8px 35px 0 35px;*/
+
+	display: block;
+	text-decoration: none;
+}
+#menu9 ul li a:hover {
 	/*color: #FFF;*/
 	/*background:  url(menu9.gif) 0 -32px;*/
 	background:  url(menu9.gif);
 	padding: 8px 35px 0 35px;
+	text-decoration: none;
+}
+#menu9 ul li:hover ul{
+display: block;
+}
+
+#menu9 ul ul{
+	display: none;
+	position: absolute;
+	background-color: green;
+}
+
+#menu9 ul ul li{
+	display: block;
 }
 
 .banner{
@@ -303,28 +300,6 @@ article > p{
 	margin-left: 28%;
 }
 
-
-.subMenu li ul {
-	position:absolute;
-	visibility:hidden;
-	border-top:1px solid #fff;
-	margin:0;
-	padding:0;
-}
-
-.subMenu li ul li {
-	display:inline;
-	float:none;
-}
-
-.subMenu li ul li a:link, .subMenu li ul li a:visited {
-	background-color:#09F;
-	width:auto;
-}
-
-.subMenu li ul li a:hover {
-	background-color:#0CF;	
-}
 
 .text-site-heading-small {
   margin-top: 0;
@@ -349,10 +324,3 @@ article > p{
   text-align: left;
 padding-top: 30px;
 }
-.tex{
-  width: 500px;
-  font-size: 30px;
-  
-}
-
-      /*Enquiry <br><input class="tex" type="text" name="name" size="80"/>
