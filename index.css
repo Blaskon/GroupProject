@@ -36,6 +36,26 @@ p.con
 {
   color: black;
 }
+div.gp
+{
+  padding: 5px 0px 0px 0px; 
+  background: url("gpo_page.jpg"); 
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+  height: 500px;
+}
+p.g
+{
+  padding-left: 20px;
+  float: left;
+  font-family: arial;
+  font-size: 16px;
+  margin: 0 auto;
+  width: 400px;
+  color: #00ff4c;
+}
 div.kil
 {
   padding: 5px 0px 0px 0px; 
@@ -47,6 +67,26 @@ div.kil
   height: 500px;
 }
 p.kilmainham
+{
+  padding-left: 20px;
+  float: left;
+  font-family: arial;
+  font-size: 16px;
+  margin: 0 auto;
+  width: 400px;
+  color: #00ff4c;
+}
+div.DublinC
+{
+  padding: 5px 0px 0px 0px; 
+  background: url("dublincastle_page.jpg"); 
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+  height: 500px;
+}
+p.dublincastle
 {
   padding-left: 20px;
   float: left;
