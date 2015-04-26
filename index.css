@@ -2,12 +2,12 @@ h1
 {   
   text-align: center;
   padding-top: 15px;
-  color: red;
+  color: white;
 }
 h2
 {
   text-align: center;
-  color: red;
+  color: white;
 }
 div.fon
 {
@@ -76,6 +76,7 @@ p.crokep
   width: 700px;
   color: #000000;
 }
+
 div.blar
 {
   padding: 5px 0px 0px 0px; 
@@ -86,6 +87,7 @@ div.blar
   background-size: cover;
   height: 500px;
 }
+
 p.blarney
 {
   padding-left: 20px;
@@ -119,7 +121,7 @@ p.newgrange2
 div.gp
 {
   padding: 5px 0px 0px 0px; 
-  background: url("gpo_page.jpg"); 
+  background: url("gpo1.jpg"); 
   -webkit-background-size: cover;
   -moz-background-size: cover;
   -o-background-size: cover;
@@ -128,13 +130,14 @@ div.gp
 }
 p.g
 {
-  padding-left: 20px;
-  float: left;
-  font-family: arial;
-  font-size: 16px;
-  margin: 0 auto;
-  width: 300px;
-  color: #00ff4c;
+  padding-top: 250px;
+font-family: arial;
+font-size: 18px;
+margin: 0 auto;
+width: 1000px;
+color: #FFFFFF;
+text-align: justify;
+}
 }
 div.DublinC
 {
@@ -179,7 +182,7 @@ footer.foot
   text-decoration: none;
 }
 .copy
-{ color: #f96407;
+{ color: #000000;
 }
 
 body {
