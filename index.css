@@ -130,13 +130,15 @@ div.gp
 }
 p.g
 {
-  padding-top: 250px;
+padding-top: 250px;
 font-family: arial;
 font-size: 18px;
-margin: 0 auto;
-width: 1000px;
 color: #FFFFFF;
 text-align: justify;
+padding-right: 10%;
+padding-left: 10%;
+margin: auto;
+width: 80%; 
 }
 div.DublinC
 {
