@@ -2,12 +2,12 @@ h1
 {   
   text-align: center;
   padding-top: 15px;
-  color: red;
+  color: white;
 }
 h2
 {
   text-align: center;
-  color: red;
+  color: white;
 }
 div.fon
 {
@@ -17,13 +17,13 @@ div.fon
 aside.contactL
 {
   float: left;
-  width: 500px;
+  width: 50%;
   height: 400px;
 }
 aside.contactR
 {
   float: right;
-  width: 500px;
+  width: 48%;
   height: 400px;
 }
 p.te
@@ -44,7 +44,7 @@ div.kil
   -moz-background-size: cover;
   -o-background-size: cover;
   background-size: cover;
-  height: 500px;
+  height: 900px;
 }
 p.kilmainham
 {
@@ -53,7 +53,7 @@ p.kilmainham
   font-family: arial;
   font-size: 16px;
   margin: 0 auto;
-  width: 400px;
+  width: 60%;
   color: #00ff4c;
 }
 div.croke
@@ -76,6 +76,7 @@ p.crokep
   width: 700px;
   color: #000000;
 }
+
 div.blar
 {
   padding: 5px 0px 0px 0px; 
@@ -86,6 +87,7 @@ div.blar
   background-size: cover;
   height: 500px;
 }
+
 p.blarney
 {
   padding-left: 20px;
@@ -113,13 +115,13 @@ p.newgrange2
   font-family: arial;
   font-size: 16px;
   margin: 0 auto;
-  width: 300px;
+  width: 700px;
   color: #00ff4c;
 }
 div.gp
 {
   padding: 5px 0px 0px 0px; 
-  background: url("gpo_page.jpg"); 
+  background: url("gpo1.jpg"); 
   -webkit-background-size: cover;
   -moz-background-size: cover;
   -o-background-size: cover;
@@ -128,13 +130,15 @@ div.gp
 }
 p.g
 {
-  padding-left: 20px;
-  float: left;
-  font-family: arial;
-  font-size: 16px;
-  margin: 0 auto;
-  width: 300px;
-  color: #00ff4c;
+padding-top: 250px;
+font-family: arial;
+font-size: 18px;
+color: #FFFFFF;
+text-align: justify;
+padding-right: 10%;
+padding-left: 10%;
+margin: auto;
+width: 80%; 
 }
 div.DublinC
 {
@@ -144,7 +148,7 @@ div.DublinC
   -moz-background-size: cover;
   -o-background-size: cover;
   background-size: cover;
-  height: 700px;
+  height: 500px;
 }
 p.dublincastle
 {
@@ -154,20 +158,13 @@ p.dublincastle
   font-size: 16px;
   margin: 0 auto;
   width: 300px;
-  color: #00ff4c;
-}
-.gpoo
-{  
-  padding: 20px 20px 20px 20px;  
-  height: 300px;
-  width: 300px;
+  color: white;
 }
 footer.foot
 {   
   text-align: center;
   height: 120px;
   font-size: 20px;
-  background-color: red;
 }
 .foot1
 { 
@@ -180,7 +177,7 @@ footer.foot
   text-decoration: none;
 }
 .copy
-{ color: #f96407;
+{ color: #000000;
 }
 
 body {
@@ -199,13 +196,9 @@ body {
   
   background-size: 100% 100%;
 }
-
-
-
 div {
    display: block;
   } 
-
 .center{
   padding-right: 10%;
   padding-left: 10%;
@@ -281,7 +274,6 @@ nav.align{
   display: block;
   width: 1024px;
   margin-left: 0;
-  margin-right: right;
 }
 
 footer.centerFooter{
@@ -324,12 +316,10 @@ display: inline-block;
   padding: 0;
   position: absolute;
   width: 100%;
-
-  }
+}
   
 #menu9  ul{
   height: 156px;
-
   list-style-type: none;
   margin: 0;
   padding: 0;
@@ -341,6 +331,7 @@ display: inline-block;
 
 #menu9  ul  li{
   display: inline-block;
+
 }
   
 #menu9 li a:link, #menu9 li a:visited {
@@ -377,7 +368,6 @@ display: block;
 #menu9 ul ul li{
   display: block;
 }
-
 .banner{
 
   background: url(irelandlogo.png) no-repeat;
@@ -385,7 +375,7 @@ display: block;
     background-color: #FFFFFF;
  
   background-size: 10% 75%;
-  height: 170px;
+  height: 210px;
   width: 100%;
 }
 

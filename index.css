@@ -160,12 +160,6 @@ p.dublincastle
   width: 300px;
   color: white;
 }
-.gpoo
-{  
-  padding: 20px 20px 20px 20px;  
-  height: 300px;
-  width: 300px;
-}
 footer.foot
 {   
   text-align: center;
@@ -202,13 +196,9 @@ body {
   
   background-size: 100% 100%;
 }
-
-
-
 div {
 	 display: block;
 	}	
-
 .center{
 	padding-right: 10%;
   padding-left: 10%;
@@ -284,7 +274,6 @@ nav.align{
 	display: block;
 	width: 1024px;
 	margin-left: 0;
-	margin-right: right;
 }
 
 footer.centerFooter{
@@ -332,8 +321,7 @@ display: inline-block;
 	
 #menu9  ul{
 	height: 156px;
-
-	list-style-type: none;
+  list-style-type: none;
 	margin: 0;
 	padding: 0;
 	outline: none;
