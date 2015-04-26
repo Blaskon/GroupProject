@@ -2,12 +2,12 @@ h1
 {   
   text-align: center;
   padding-top: 15px;
-  color: white;
+  color: red;
 }
 h2
 {
   text-align: center;
-  color: white;
+  color: red;
 }
 div.fon
 {
@@ -17,13 +17,13 @@ div.fon
 aside.contactL
 {
   float: left;
-  width: 50%;
+  width: 500px;
   height: 400px;
 }
 aside.contactR
 {
   float: right;
-  width: 48%;
+  width: 500px;
   height: 400px;
 }
 p.te
@@ -76,7 +76,6 @@ p.crokep
   width: 700px;
   color: #000000;
 }
-
 div.blar
 {
   padding: 5px 0px 0px 0px; 
@@ -87,7 +86,6 @@ div.blar
   background-size: cover;
   height: 500px;
 }
-
 p.blarney
 {
   padding-left: 20px;
@@ -115,13 +113,13 @@ p.newgrange2
   font-family: arial;
   font-size: 16px;
   margin: 0 auto;
-  width: 700px;
+  width: 300px;
   color: #00ff4c;
 }
 div.gp
 {
   padding: 5px 0px 0px 0px; 
-  background: url("gpo1.jpg"); 
+  background: url("gpo_page.jpg"); 
   -webkit-background-size: cover;
   -moz-background-size: cover;
   -o-background-size: cover;
@@ -130,14 +128,13 @@ div.gp
 }
 p.g
 {
-  padding-top: 250px;
-font-family: arial;
-font-size: 18px;
-margin: 0 auto;
-width: 1000px;
-color: #FFFFFF;
-text-align: justify;
-}
+  padding-left: 20px;
+  float: left;
+  font-family: arial;
+  font-size: 16px;
+  margin: 0 auto;
+  width: 300px;
+  color: #00ff4c;
 }
 div.DublinC
 {
@@ -170,6 +167,7 @@ footer.foot
   text-align: center;
   height: 120px;
   font-size: 20px;
+  background-color: red;
 }
 .foot1
 { 
@@ -182,7 +180,7 @@ footer.foot
   text-decoration: none;
 }
 .copy
-{ color: #000000;
+{ color: #f96407;
 }
 
 body {
@@ -191,7 +189,7 @@ body {
 }
 
 .pageBackground { 
-	width: 100%;
+  width: 100%;
   height: 100%;
   background: url(ireland-4.jpg) no-repeat center center fixed; 
   /*-webkit-background-size: cover;
@@ -205,14 +203,14 @@ body {
 
 
 div {
-	 display: block;
-	}	
+   display: block;
+  } 
 
 .center{
-	padding-right: 10%;
+  padding-right: 10%;
   padding-left: 10%;
-	margin: auto;
-  width: 80%;	
+  margin: auto;
+  width: 80%; 
 }
 .center2{
   width: 80%;
@@ -231,8 +229,8 @@ div {
   padding-right: 10%
 }
 p{  
-	font-size: 20px;
-	color: white;
+  font-size: 20px;
+  color: white;
 }
 
 a:link {
@@ -246,7 +244,7 @@ a:hover {
 }
 
 aside.floatRight{
-	float: right;
+  float: right;
 }
 
 blockquote {
@@ -280,21 +278,21 @@ blockquote p {
 }
 
 nav.align{
-	display: block;
-	width: 1024px;
-	margin-left: 0;
-	margin-right: right;
+  display: block;
+  width: 1024px;
+  margin-left: 0;
+  margin-right: right;
 }
 
 footer.centerFooter{
-	margin-left: auto;
-	margin-right: auto;
-	width:250px;
-	margin-top: 0px;	
+  margin-left: auto;
+  margin-right: auto;
+  width:250px;
+  margin-top: 0px;  
 }
 
 aside.floatRight{
-	float: right;
+  float: right;
 }
 
 article > p{
@@ -302,13 +300,13 @@ article > p{
 }
 
 /*div.backgroundSection{
-	background: url(ireland-4.jpg) no-repeat;
-	background-position: 0% 0%;
-	background-size: 100% 100%;
-	  height: 100%;
-	  margin: 0;
+  background: url(ireland-4.jpg) no-repeat;
+  background-position: 0% 0%;
+  background-size: 100% 100%;
+    height: 100%;
+    margin: 0;
 
-	
+  
 }*/
 
 #content1 {
@@ -317,67 +315,67 @@ article > p{
     padding: 10px 15px; 
     /*background: url(ireland-4.jpg);*/
     /*border-radius: 25px;*/
-	display: block;
+  display: block;
 }
 
 #menu9 {
 display: inline-block;
-	margin: 0;
-	padding: 0;
-	position: absolute;
-	width: 100%;
+  margin: 0;
+  padding: 0;
+  position: absolute;
+  width: 100%;
 
-	}
-	
+  }
+  
 #menu9  ul{
-	height: 156px;
+  height: 156px;
 
-	list-style-type: none;
-	margin: 0;
-	padding: 0;
-	outline: none;
-	float:right;
-	margin-right: 15%;
-	position: relative;
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  outline: none;
+  float:right;
+  margin-right: 15%;
+  position: relative;
 }
 
 #menu9  ul  li{
-	display: inline-block;
+  display: inline-block;
 }
-	
+  
 #menu9 li a:link, #menu9 li a:visited {
-	color: #5C5C5C;
+  color: #5C5C5C;
 
-	padding: 8px 35px 0 35px;
-	
+  padding: 8px 35px 0 35px;
+  
 }
 
 #menu9 ul li a,visited{
-	/*background:  url(menu9.gif);
-	padding: 8px 35px 0 35px;*/
+  /*background:  url(menu9.gif);
+  padding: 8px 35px 0 35px;*/
 
-	display: block;
-	text-decoration: none;
+  display: block;
+  text-decoration: none;
 }
 #menu9 ul li a:hover {
-	/*color: #FFF;*/
-	/*background:  url(menu9.gif) 0 -32px;*/
-	background:  url(menu9.gif);
-	padding: 8px 35px 0 35px;
-	text-decoration: none;
+  /*color: #FFF;*/
+  /*background:  url(menu9.gif) 0 -32px;*/
+  background:  url(menu9.gif);
+  padding: 8px 35px 0 35px;
+  text-decoration: none;
 }
 #menu9 ul li:hover ul{
 display: block;
 }
 
 #menu9 ul ul{
-	display: none;
-	position: absolute;
-	background-color: #53CF29;
+  display: none;
+  position: absolute;
+  background-color: #53CF29;
 }
 
 #menu9 ul ul li{
-	display: block;
+  display: block;
 }
 
 .banner{
@@ -392,7 +390,7 @@ display: block;
 }
 
 .headingAlignment{
-	margin-left: 28%;
+  margin-left: 28%;
 }
 
 

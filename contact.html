@@ -78,62 +78,48 @@
 			</div>
 		</header>
 
-<div class="center">
-	<h1>Contact Information</h1>
-	<aside class="contactL">
+		<div class="center">
+			<h1>Contact Information</h1>
+			<aside class="contactL">
 	
-		<p class="con">If you need any questions about bookings or any other Enquiries regarding any of the attractions, please feel free to contact us. 
-						<br>You can e-mail us at any time and we will get back to you as soon as possible. Alternatively you 
-						<br>can contact us by phone. The telephone lines will be open from 9am-5pm Monday-Saturday.  
-		</p>
-		<p class="te">T: 01-284 9961 or 003531-284 9961<br>
+				<p class="con">If you need any questions about bookings or any other Enquiries regarding any of the attractions, please feel free to contact us. 
+					<br>You can e-mail us at any time and we will get back to you as soon as possible. Alternatively you 
+					<br>can contact us by phone. The telephone lines will be open from 9am-5pm Monday-Saturday.  
+				</p>
+				<p class="te">T: 01-284 9961 or 003531-284 9961<br>
 						E: populart@gmail.com</p>
-	</aside>
+			</aside>
 
-	<aside class="contactR">
-		<form  class="one" action="" method="GET" onsubmit="return contact()">
-	
-			<select class="tex" id="mainEnquiry" name="mainEnquiry">
-				<option value="general">General Enquiry</option>
-				<option value="booking">Group Booking</option>
-				<option value="booking">Buy Tickets</option>
-			</select>
-			<br><br><br>
+			<aside class="contactR">
+				<form id="myForm" action="form_action.asp">
+			
+					<select class="tex" id="mainEnquiry" name="mainEnquiry">
+						<option value="general">General Enquiry</option>
+						<option value="booking">Group Booking</option>
+						<option value="booking">Buy Tickets</option>
+					</select>
+					<br><br><br>
+			
+					Name: <input id="userName" type="text" size="20" />
+					<br><br>
+					Phone: <input id="userPhone" type="text" size="10" />
+					<br><br>
+					Email: <input id="userEmail" type="text" size="20" />
+					<br><br>
+					Enquiry: <br><textarea id="userEnquiry" cols="25" rows="10" tabindex="70" data-min-length=""></textarea>
+					<br><br>
+					<input type="button" onclick="contact()" value="Submit">
+				</form>
+			</aside>
 
+			<footer class="foot">
+				<br>	
+				<a href="./contact.html"  class="foot1">Top of page</a>  
+				<p class="copy">All content copyright Paul O'Sullivan, Miguel Rey and Obi Uzoma 2015</p>   
 
-			Name <br><input id="Name" type="text" name="Name" size="80" />
-			<br><br>
-
-			Telephone <br><input type="text" id="Telephone" name="Telephone" size="80" />
-			<br><br>
-
-			Email <br><input type="text" id="Email" name="Email" size="80" />
-			<br><br>
-
-			Enquiry<textarea type="text" id="enquiry" name="enquiry" cols="80" rows="10" tabindex="70" data-min-length=""></textarea>
-			<input type="submit" value="submit" name="Button1" size="85"><br/>
-		</form>
-	</aside>
-
-
-
-
-
-
-	<footer class="foot">
-		<br>	
-  		<a href="./contact.html"  class="foot1">Top of page</a>  
-			<p class="copy">All content copyright Paul O'Sullivan, Miguel Rey and Obi Uzoma 2015</p>   
-
-	</footer>
-</div>
-</body>
-
-
-
-
-
-
+			</footer>
+		</div>
+	</body>
 </html>
 
 
