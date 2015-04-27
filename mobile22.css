@@ -1,5 +1,8 @@
 body{
   font-family: arial;
+  min-height: 100%;
+  min-width: 100%;
+  margin: 0;
 }
 h1.textStyle
 {   
@@ -51,12 +54,14 @@ aside.contactL
   float: left;
   width: 50%;
   height: 400px;
+  width: 50%;
 }
 aside.contactR
 {
   float: right;
   width: 48%;
   height: 400px;
+  width: 50%;
 }
 p.te
 {
@@ -230,13 +235,6 @@ footer.foot
 .copy
 { color: #000000;
 }
-
-body {
-  min-height: 100%;
-  min-width: 100%;
-  margin: 0;
-}
-
 
 .pageBackground { 
 
@@ -471,5 +469,6 @@ display: block;
   margin: 0 auto;
   width: 100%;
 }
+
 
 
