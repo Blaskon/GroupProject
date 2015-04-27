@@ -179,24 +179,23 @@ p.g
 
 div.dublin
 {
-	padding: 5px 0px 0px 0px; 
-	background: url("dublincastle.jpg"); 
-	-webkit-background-size: cover;
-	-moz-background-size: cover;
-	-o-background-size: cover;
-	background-size: cover;
-	height: 700px;
+  padding: 5px 0px 0px 0px; 
+  background: url("dublincastle.jpg"); 
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+  height: 700px;
 }
-
 p.dublincastle
 {
-	padding-top: 200px;
-	font-family: arial;
-	font-size: 18px;
-	margin: 0 auto;
-	width: 1000px;
-	color: #FFFFFF;
-	text-align: justify;
+padding-top: 200px;
+font-family: arial;
+font-size: 18px;
+margin: 0 auto;
+width: 1000px;
+color: #FFFFFF;
+text-align: justify;
 }
 
 .gpoo
