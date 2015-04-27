@@ -54,13 +54,12 @@ aside.contactL
 {
   float: left;
   width: 50%;
-  height: 400px;
 }
 aside.contactR
 {
   float: right;
   width: 30%;
-  height: 400px;
+  margin-bottom: 6%;
 }
 p.te
 {
@@ -484,5 +483,44 @@ padding-top: 30px;
 	margin-right: auto;
 }
 
+@media screen and (max-width: 800px) {
+    #address {
+        display: none;
+    }
+	
+}
 
+@media screen and (max-width: 600px) {
+	.contactL p{
+		font-size:80%;
+	}
+	.foot p{
+		font-size: 60%;
+		margin-top: 15%;
+	}
+	
+	.banner{
+		background: none;
+	}
+	
+	.text-site-heading-small {
+		display: none;
+	}
+	.text-site-heading{
+		display: none;
+	}
+	 
+}
 
+@media screen and (max-width: 400px) {
+    
+	.contactL p{
+		display: none;
+	}
+	.foot p{
+		margin-top: 30%;
+	}
+	aside.contactR{
+		float: left;
+	}
+}
