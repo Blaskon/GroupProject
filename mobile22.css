@@ -148,7 +148,7 @@ div.newgrange1
   -moz-background-size: cover;
   -o-background-size: cover;
   background-size: cover;
-  height: 700px;
+  height: 1700px;
 }
 
 p.newgrange2
@@ -157,7 +157,7 @@ p.newgrange2
   font-family: arial;
   font-size: 18px;
   margin: 0 auto;
-  width: 1000px;
+  width: 80%;
   color: #FFFFFF;
   text-align: justify;
 }
