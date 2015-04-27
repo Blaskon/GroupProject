@@ -1,9 +1,13 @@
+<<<<<<< Updated upstream
 h1.textStyle
 {   
   margin-top: 23%;
   margin-bottom: 23%;
   font-size: 300%;
 }
+=======
+
+>>>>>>> Stashed changes
 
 h1
 {   
@@ -89,6 +93,7 @@ div.croke
 }
 p.crokep
 {
+<<<<<<< Updated upstream
 	padding-top: 100px;
 	font-family: arial;
 	font-size: 18px;
@@ -96,6 +101,15 @@ p.crokep
 	width: 1000px;
 	color: #FFFFFF;
 	text-align: justify;
+=======
+  padding-left: 20px;
+  float: right;
+  font-family: arial;
+  font-size: 16px;
+  margin: 0 auto;
+  width: 30%;
+  color: #000000;
+>>>>>>> Stashed changes
 }
 
 div.blar
