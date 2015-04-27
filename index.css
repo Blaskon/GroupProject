@@ -212,9 +212,10 @@ text-align: justify;
 
 footer.foot
 {   
-  text-align: center;
-  height: 120px;
-  font-size: 20px;
+	margin-top: 3%;
+	text-align: center;
+	height: 120px;
+	font-size: 20px;
 }
 .foot1
 { 
@@ -469,6 +470,14 @@ padding-top: 30px;
 .wrapper{
   margin: 0 auto;
   width: 100%;
+}
+
+#address{
+	margin-top: 5%;
+	width: 50%;
+	position: relative;
+	margin-left: auto;
+	margin-right: auto;
 }
 
 
