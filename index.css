@@ -55,7 +55,7 @@ aside.contactL
 aside.contactR
 {
   float: right;
-  width: 48%;
+  width: 30%;
   height: 400px;
 }
 p.te
@@ -474,7 +474,7 @@ padding-top: 30px;
 
 #address{
 	margin-top: 5%;
-	width: 50%;
+	width: 600px;
 	position: relative;
 	margin-left: auto;
 	margin-right: auto;
