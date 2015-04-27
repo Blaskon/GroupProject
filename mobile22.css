@@ -1,16 +1,46 @@
-
+body{
+  font-family: arial;
+}
+h1.textStyle
+{   
+  margin-top: 23%;
+  margin-bottom: 23%;
+  font-size: 300%;
+}
 
 h1
 {   
+  font-family: "Georgia";
   text-align: center;
   padding-top: 15px;
   color: white;
 }
+
 h2
 {
   text-align: center;
   color: white;
 }
+
+p{
+  font-family: "Georgia";
+}
+p.blackText{
+  font-size: 30px;
+  color: #251919;
+  text-align: center;
+}
+
+#blockOfHomeImages{
+  position: relative;
+  margin-left: auto;
+  margin-right: auto;
+  width: 1041px;  
+}
+#images{
+  margin-bottom: 5%;
+}
+
 div.fon
 {
   text-align: center;
@@ -38,87 +68,98 @@ p.con
 {
   color: black;
 }
+
 div.kil
 {
   padding: 5px 0px 0px 0px; 
-  background: url("kilmainham.jpg"); 
-  -webkit-background-size: cover;
-  -moz-background-size: cover;
-  -o-background-size: cover;
-  background-size: cover;
-  height: 900px;
-}
-p.kilmainham
-{
-  padding-left: 20px;
-  float: left;
-  font-family: arial;
-  font-size: 16px;
-  margin: 0 auto;
-  width: 60%;
-  color: #00ff4c;
-}
-div.croke
-{
-  padding: 5px 0px 0px 0px; 
-  background: url("outside.jpg"); 
-  -webkit-background-size: cover;
-  -moz-background-size: cover;
-  -o-background-size: cover;
-  background-size: cover;
-  height: 500px;
-}
-p.crokep
-{
-  padding-left: 20px;
-  float: right;
-  font-family: arial;
-  font-size: 16px;
-  margin: 0 auto;
-  width: 700px;
-  color: #000000;
-}
-
-div.blar
-{
-  padding: 5px 0px 0px 0px; 
-  background: url("blarney_stone1.jpg"); 
-  -webkit-background-size: cover;
-  -moz-background-size: cover;
-  -o-background-size: cover;
-  background-size: cover;
-  height: 500px;
-}
-
-p.blarney
-{
-  padding-left: 20px;
-  float: left;
-  font-family: arial;
-  font-size: 16px;
-  margin: 0 auto;
-  width: 300px;
-  color: #00ff4c;
-}
-div.newgrange1
-{
-  padding: 5px 0px 0px 0px; 
-  background: url("newgrange_page.jpg"); 
+  background: url("KilmainhamJail.jpg"); 
   -webkit-background-size: cover;
   -moz-background-size: cover;
   -o-background-size: cover;
   background-size: cover;
   height: 700px;
 }
+p.kilmainham
+{
+ padding-top: 100px;
+font-family: arial;
+font-size: 18px;
+margin: 0 auto;
+width: 1000px;
+color: #FFFFFF;
+text-align: justify;
+}
+
+div.croke
+{
+  padding: 5px 0px 0px 0px; 
+  background: url("crokepark.jpg"); 
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+  height: 1300px;
+  width: 100%;
+}
+p.crokep
+{
+  padding-top: 100px;
+  font-family: arial;
+  font-size: 18px;
+  margin: 0 auto;
+  width: 20%;
+  color: #FFFFFF;
+  text-align: justify;
+  padding-left: 10%;
+  padding-right: 10%;
+  float: left;
+  font-size: 16px;
+  width: 80%;
+  color: #ffffff;
+}
+
+div.blar
+{
+  padding: 5px 0px 0px 0px; 
+  background: url("blarneystone.jpg"); 
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+  height: 700px;
+}
+
+p.blarney
+{
+ padding-top: 150px;
+font-family: arial;
+font-size: 18px;
+margin: 0 auto;
+width: 1000px;
+color: #FFFFFF;
+text-align: justify;
+}
+
+div.newgrange1
+{
+  padding: 5px 0px 0px 0px; 
+  background: url("newgrange2.jpg"); 
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+  height: 700px;
+}
+
 p.newgrange2
 {
-  padding-left: 20px;
-  float: left;
+  padding-top: 100px;
   font-family: arial;
-  font-size: 16px;
+  font-size: 18px;
   margin: 0 auto;
-  width: 700px;
-  color: #00ff4c;
+  width: 1000px;
+  color: #FFFFFF;
+  text-align: justify;
 }
 div.gp
 {
@@ -128,40 +169,48 @@ div.gp
   -moz-background-size: cover;
   -o-background-size: cover;
   background-size: cover;
-  height: 1700px;
+  height: 700px;
 }
+
 p.g
 {
-padding-top: 250px;
-font-family: arial;
-font-size: 18px;
-color: #FFFFFF;
-text-align: justify;
-padding-right: 10%;
-padding-left: 10%;
-margin: auto;
-width: 80%; 
+  padding-top: 250px;
+  font-family: arial;
+  font-size: 18px;
+  margin: 0 auto;
+  width: 1000px;
+  color: #FFFFFF;
+  text-align: justify;
 }
-div.DublinC
+
+div.dublin
 {
   padding: 5px 0px 0px 0px; 
-  background: url("dublincastle_page.jpg"); 
+  background: url("dublincastle.jpg"); 
   -webkit-background-size: cover;
   -moz-background-size: cover;
   -o-background-size: cover;
   background-size: cover;
-  height: 500px;
+  height: 700px;
 }
 p.dublincastle
 {
-  padding-left: 20px;
-  float: left;
-  font-family: arial;
-  font-size: 16px;
-  margin: 0 auto;
-  width: 300px;
-  color: white;
+padding-top: 200px;
+font-family: arial;
+font-size: 18px;
+margin: 0 auto;
+width: 1000px;
+color: #FFFFFF;
+text-align: justify;
 }
+
+.gpoo
+{  
+  padding: 20px 20px 20px 20px;  
+  height: 300px;
+  width: 300px;
+}
+
 footer.foot
 {   
   text-align: center;
@@ -184,10 +233,14 @@ footer.foot
 
 body {
   min-height: 100%;
+  min-width: 100%;
   margin: 0;
 }
 
+
 .pageBackground { 
+
+  
   width: 100%;
   height: 100%;
   background: url(ireland-4.jpg) no-repeat center center fixed; 
@@ -198,9 +251,11 @@ body {
   
   background-size: 100% 100%;
 }
+
 div {
    display: block;
   } 
+
 .center{
   padding-right: 10%;
   padding-left: 10%;
@@ -212,14 +267,14 @@ div {
   padding-top: 20px;
   padding-bottom: 20px;
   margin: 0 auto;
-  padding-left: 10%;
+  padding-left: 23%;
   padding-right: 10%  
 }
 .center3{
   width: 80%;
   padding-top: 20px;
   padding-bottom: 20px;
-  padding-left: 10%;
+  padding-left: 23%;
   margin: 0 auto;
   padding-right: 10%
 }
@@ -282,7 +337,8 @@ footer.centerFooter{
   margin-left: auto;
   margin-right: auto;
   width:250px;
-  margin-top: 0px;  
+  margin-top: 0px;
+  padding-top: 5%;
 }
 
 aside.floatRight{
@@ -318,10 +374,12 @@ display: inline-block;
   padding: 0;
   position: absolute;
   width: 100%;
-}
+
+  }
   
 #menu9  ul{
   height: 156px;
+
   list-style-type: none;
   margin: 0;
   padding: 0;
@@ -333,7 +391,6 @@ display: inline-block;
 
 #menu9  ul  li{
   display: inline-block;
-
 }
   
 #menu9 li a:link, #menu9 li a:visited {
@@ -370,6 +427,7 @@ display: block;
 #menu9 ul ul li{
   display: block;
 }
+
 .banner{
 
   background: url(irelandlogo.png) no-repeat;
@@ -377,7 +435,7 @@ display: block;
     background-color: #FFFFFF;
  
   background-size: 10% 75%;
-  height: 210px;
+  height: 220px;
   width: 100%;
 }
 
@@ -407,7 +465,7 @@ display: block;
   color: #666;
   letter-spacing: -.01em;
   text-align: left;
-padding-top: 30px;
+  padding-top: 30px;
 }
 .wrapper{
   margin: 0 auto;
