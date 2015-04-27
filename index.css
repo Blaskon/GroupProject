@@ -106,17 +106,14 @@ div.croke
 }
 p.crokep
 {
-	padding-top: 100px;
-	font-family: arial;
-	font-size: 18px;
-	margin: 0 auto;
-	width: 20%;
-	color: #FFFFFF;
-	text-align: justify;
+  padding-top: 100px;
+  font-family: arial;
+  font-size: 18px;
+  margin: 0 auto;
+  width: 60%;
+  text-align: justify;
   padding-left: 20px;
-  float: left;
   font-size: 16px;
-  width: 400px;
   color: #ffffff;
 }
 
@@ -522,5 +519,8 @@ padding-top: 30px;
 	}
 	aside.contactR{
 		float: left;
+	}
+	.banner{
+		background: none;
 	}
 }
